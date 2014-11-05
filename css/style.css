@@ -1,1 +1,43 @@
-style.css
+.container {
+  position: relative;
+  margin:auto;
+  width:960px;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+	background: #f1f1f1;
+    margin-bottom: 70px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; //IE6 Fix
+}
