@@ -3,37 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fixed layouts</title>
+	<title>Fluid layouts</title>
 	<style>
 		*{ margin: 0;padding: 0; }
 
-		.wrapper{
-			width: 750px;
-			position: absolute;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 0;
-			border: solid 1px black;
-		}
-
 		#extra{
-			position: absolute;
-			width: 200px;
+			width: 25%;
+			float: left;
+			background-color: orange;
+		}
+		#extra2{
+			width: 25%;
+			float: left;
 			background-color: orange;
 		}
 
 		#content{
-			margin-left: 225px;
+			width: 40%;
+			margin-right: 5%;
+			margin-left: 5%;
+			float: left;
 			background-color: yellow;
 		}
 	</style>
 </head>
 <body>
-	<div class="wrapper">
-		<div id="extra">
-			<h2>Extra</h2>
-			<p>Bacon ipsum dolor amet landjaeger commodo tenderloin jowl, culpa anim quis capicola enim corned beef ut sunt. Salami short loin ham hock, kevin fatback tail officia dolor veniam ullamco velit pork loin enim. Fugiat biltong bresaola in voluptate brisket jowl kevin. Minim short ribs irure tenderloin venison quis id fatback sausage tongue nisi beef ribs cupidatat. Tongue adipisicing nostrud voluptate short ribs. Commodo salami t-bone id boudin ground round porchetta landjaeger minim lorem.</p>
-		</div>
+	
 		<div id="content">
 			<h1>Main content</h1>
 			<p>Enim in spare ribs ullamco sirloin ex. Cow rump veniam short loin id aute. Cillum pariatur sausage dolore, aliquip laborum chuck. Ullamco eiusmod ad spare ribs tempor consequat. Mollit ex bacon magna, meatloaf anim fatback duis ham minim culpa. Pariatur short loin pork chop sint.
@@ -44,6 +39,11 @@
 
 			Meatloaf meatball ham hock fugiat velit enim, strip steak quis tenderloin. Excepteur sausage turkey prosciutto. Cillum elit ham reprehenderit dolor. Tail ham esse incididunt occaecat in tempor ullamco commodo tri-tip ut pork chop. Eiusmod incididunt fugiat, fatback bresaola biltong irure ut ribeye chuck ad pork loin in ham. Tempor capicola brisket id filet mignon lorem eu sirloin short loin beef ut ex minim. Officia eu ball tip sunt brisket shankle dolor deserunt veniam laborum quis kielbasa id.</p>
 		</div>
-	</div>
+
+		<div id="extra">
+			<h2>Extra</h2>
+			<p>Bacon ipsum dolor amet landjaeger commodo tenderloin jowl, culpa anim quis capicola enim corned beef ut sunt. Salami short loin ham hock, kevin fatback tail officia dolor veniam ullamco velit pork loin enim. Fugiat biltong bresaola in voluptate brisket jowl kevin. Minim short ribs irure tenderloin venison quis id fatback sausage tongue nisi beef ribs cupidatat. Tongue adipisicing nostrud voluptate short ribs. Commodo salami t-bone id boudin ground round porchetta landjaeger minim lorem.</p>
+		</div>
+
 </body>
 </html>
